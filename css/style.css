@@ -1,0 +1,33 @@
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+}
+.content .logo{
+    margin: 16px 120px;
+
+}
+.head-title .head-title li {
+    list-style-type: none;
+    text-align: center;
+}
+nav .content .head-title{
+    list-style-type: none;
+    display: flex;
+    gap: 32px;
+    margin-top: 24px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.btm{
+    border: none;
+    background-color: #469165;
+    padding: 13px 16px;
+    border-radius: 5px;
+    margin: 24px 120px;
+    cursor: pointer;
+}
+
+
+
