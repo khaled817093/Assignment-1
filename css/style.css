@@ -102,7 +102,6 @@ nav .content .head-title{
     color: #ffffff;
     border-radius: 5px;
     cursor: pointer;
-    margin-bottom: 175px;
     
 }
 .btm-2{
@@ -117,3 +116,133 @@ nav .content .head-title{
 .btm:hover, .btm-2:hover{
     background-color: rgb(171, 159, 135);
 }
+.card-head{
+    text-align: center;
+    height: 152px;
+}
+.card-head h1{
+    font-size: 58px;
+    font-weight: bold;
+    color: #001931;
+    line-height: 100%;
+}
+.card-head p{
+    color: #627382;
+    margin-top: 16px;
+}
+.card-content{
+    width: 322px;
+    height: 300px;
+    /* border: 1px solid #e0e0e0; */
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-content{
+    box-shadow: 0 4px 12px rgba(160, 159, 159, 0.205);
+}
+.imgs{
+    background-color: #f95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgs img{
+    width: 32px;
+    height: 32px;
+}
+.card-content h2{
+    font-size: 24px;
+    font-weight: semi bold ;
+    text-align: center;
+}
+.card-content p{
+    color: #627382;
+    margin-top: 16px;
+    text-align: center;
+}
+.card-contenar{
+    margin-top: 44px;
+    display: flex;
+    max-width: 1360px;
+    gap: 24px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.idea-content{
+    margin-top: 120px;
+    max-width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 60px;
+}
+.idea-p{
+    width: 700px;
+    height: 500px;
+    
+}
+.idea{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+
+}
+
+.p p{
+    color: #30B868;
+    font-size: 16px;
+    font-weight: medium;
+    width: 500;
+}
+.p h1{
+    font-size: 58px;
+    line-height: 100%;
+    font-weight: bold;
+    color: #001931;
+    margin-top: 16px;
+    font-weight: 700;
+}
+.div p{
+    width: 700px;
+    height: 60px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+.icon-list{
+    display: flex;
+    align-items: center;
+    
+}
+
+.icon-list-content {
+    width: 700px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    
+}
+
+.icon-list p{
+    color: #001931;
+    margin: 0;
+    justify-items: auto;
+}
+.ready{
+    margin-top: 120px;
+    max-width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F7F6F2;
+}
+
