@@ -19,10 +19,14 @@ body{
     margin: 16px 120px;
 
 }
+
 .head-title a {
     text-decoration: none;
     text-align: center;
     color: #000000;
+}
+.head-title li a:hover{
+    background-color: rgb(171, 159, 135);
 }
 nav .content .head-title{
     list-style-type: none;
@@ -40,11 +44,13 @@ nav .content .head-title{
     border-radius: 5px;
     margin: 24px 120px;
     cursor: pointer;
+
     
     
 }
 .content .btm:hover{
     background-color: rgb(171, 159, 135);
+    
 }
 #benar {
     background-image: url(../assets/hero-bg.png);
@@ -113,6 +119,16 @@ nav .content .head-title{
     margin-left: 16px;
 
 }
+.btm .fa-arrow-right{
+
+    margin-right: 10px;
+}
+.btm-2 .fa-solid fa-play{
+    margin-left: 10px;
+}
+.btm-3 i{
+    margin-right: 6px;
+}
 .btm:hover, .btm-2:hover{
     background-color: rgb(171, 159, 135);
 }
@@ -125,6 +141,7 @@ nav .content .head-title{
     font-weight: bold;
     color: #001931;
     line-height: 100%;
+    margin-top: 40px;
 }
 .card-head p{
     color: #627382;
@@ -177,6 +194,9 @@ nav .content .head-title{
     margin-left: auto;
     margin-right: auto;
 }
+.card-contenar :hover{
+    background-color: rgb(171, 159, 135);
+}
 .idea-content{
     margin-top: 120px;
     max-width: 1360px;
@@ -197,7 +217,8 @@ nav .content .head-title{
 
 }
 
-.p p{
+.p h4{
+    margin-top: 120px;
     color: #30B868;
     font-size: 16px;
     font-weight: medium;
@@ -224,6 +245,7 @@ nav .content .head-title{
     
 }
 
+
 .icon-list-content {
     width: 700px;
     height: 128px;
@@ -233,11 +255,16 @@ nav .content .head-title{
     
 }
 
-.icon-list p{
-    color: #001931;
-    margin: 0;
-    justify-items: auto;
+.icon-list h4{
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 400;
+
 }
+.icon-list h4 i{
+    margin-right: 6px;
+}
+
 .ready{
     margin-top: 120px;
     max-width: 1360px;
@@ -297,10 +324,17 @@ nav .content .head-title{
     height: 20px;
     
 }
+.icon-link a :hover{
+    background-color: rgb(171, 159, 135);
+}
 .logo-img{
     
     margin: 120px auto;
     
+}
+.h5 {
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 
