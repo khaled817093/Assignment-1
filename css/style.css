@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+
 .content{
     display: flex;
     justify-content: space-between;
@@ -8,9 +19,10 @@
     margin: 16px 120px;
 
 }
-.head-title .head-title li {
-    list-style-type: none;
+.head-title a {
+    text-decoration: none;
     text-align: center;
+    color: #000000;
 }
 nav .content .head-title{
     list-style-type: none;
@@ -20,14 +32,88 @@ nav .content .head-title{
     justify-content: center;
     margin: 0 auto;
 }
+.content .btm{
+    border: none;
+    background-color: #469165;
+    padding: 13px 16px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin: 24px 120px;
+    cursor: pointer;
+    
+    
+}
+.content .btm:hover{
+    background-color: rgb(171, 159, 135);
+}
+#benar {
+    background-image: url(../assets/hero-bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 674px;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    
+
+}
+#benar .btm-3{
+    border: none;
+    background-color: #ffffff;
+    color: #30B868;
+    margin: top 115.5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 20px;
+    
+
+
+}
+
+.benar-content{
+    width: 770px;
+    height: 100%;
+    text-align: center;
+    margin: 0 auto;
+    
+
+}
+.head h1{
+    color: #ffffff;
+    font-size: 72px;
+    font-weight: bold;
+    margin-top: 16px;
+    letter-spacing: 0%;
+}
+.head h1 span{
+    color: #30B868;
+}
+ p{
+    color: #ffffff;
+    margin-top: 16px;
+    font-size: 18px;
+    line-height: 24px;
+    height: 60px;
+}
 .btm{
     border: none;
     background-color: #469165;
     padding: 13px 16px;
+    color: #ffffff;
     border-radius: 5px;
-    margin: 24px 120px;
     cursor: pointer;
+    margin-bottom: 175px;
+    
 }
+.btm-2{
+    background: none;
+    padding: 16px;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 16px;
 
-
-
+}
+.btm:hover, .btm-2:hover{
+    background-color: rgb(171, 159, 135);
+}
